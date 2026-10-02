@@ -660,11 +660,15 @@ a.doi:hover {
   }
 
   .hero-inner {
-    padding: 2.4rem var(--gutter) 2.8rem;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding: 2rem var(--gutter) 2.8rem;
   }
 
   .hero-badge {
-    display: none;
+    width: 116px;
+    height: 116px;
   }
 
   .stats {

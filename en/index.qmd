@@ -52,9 +52,8 @@ include-after-body:
         <span><i class="bi bi-geo-alt"></i> Montpellier, France</span>
       </div>
     </div>
-    <!-- To show a photo: add photo.jpg to the project root, list it under "resources"
-         in _quarto.yml, then replace "MYE" with <img src="../photo.jpg" alt="Portrait"> -->
-    <div class="hero-badge" aria-hidden="true">MYE</div>
+    <!-- Photo: to change it, replace photo.jpg (square image) in the project root -->
+    <div class="hero-badge"><img src="../photo.jpg" alt="Portrait of Mohamed Yassir Errahmani"></div>
   </div>
 </div>
 

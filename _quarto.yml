@@ -6,6 +6,7 @@ project:
     - en/index.qmd          # version anglaise   -> /cv/en/
   resources:
     - favicon.svg
+    - photo.jpg
 
 website:
   title: "Mohamed Yassir Errahmani"

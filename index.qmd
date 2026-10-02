@@ -52,9 +52,8 @@ include-after-body:
         <span><i class="bi bi-geo-alt"></i> Montpellier, France</span>
       </div>
     </div>
-    <!-- Pour afficher une photo : déposer photo.jpg à la racine du projet, l'ajouter à
-         "resources" dans _quarto.yml, puis remplacer « MYE » par <img src="photo.jpg" alt="Portrait"> -->
-    <div class="hero-badge" aria-hidden="true">MYE</div>
+    <!-- Photo : pour la changer, remplacer le fichier photo.jpg (image carrée) à la racine du projet -->
+    <div class="hero-badge"><img src="photo.jpg" alt="Portrait de Mohamed Yassir Errahmani"></div>
   </div>
 </div>
 
