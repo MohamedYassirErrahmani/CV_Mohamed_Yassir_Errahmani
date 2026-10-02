@@ -1,0 +1,42 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var links = Array.prototype.slice.call(
+    document.querySelectorAll('.cv-nav-links a')
+  );
+  var strip = document.querySelector('.cv-nav-links');
+  var current = '';
+
+  /* Surlignage de la section visible dans la barre de navigation */
+  function setActive(id) {
+    current = id;
+    links.forEach(function (a) {
+      var on = a.hash === '#' + id;
+      a.classList.toggle('active', on);
+      if (on && strip && strip.scrollWidth > strip.clientWidth) {
+        strip.scrollLeft = a.offsetLeft - (strip.clientWidth - a.offsetWidth) / 2;
+      }
+    });
+  }
+
+  if ('IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) setActive(e.target.id);
+      });
+    }, { rootMargin: '-25% 0px -65% 0px' });
+
+    links.forEach(function (a) {
+      var el = document.getElementById(a.hash.slice(1));
+      if (el) observer.observe(el);
+    });
+  }
+
+  /* Bascule FR / EN : on reste sur la même section */
+  document.querySelectorAll('a[data-lang-switch]').forEach(function (a) {
+    a.addEventListener('click', function () {
+      var id = current || location.hash.slice(1);
+      if (id) a.href = a.getAttribute('href').split('#')[0] + '#' + id;
+    });
+  });
+});
+</script>

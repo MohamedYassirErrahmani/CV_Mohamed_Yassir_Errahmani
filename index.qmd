@@ -1,0 +1,250 @@
+---
+pagetitle: "CV — Épidémiologiste-Biostatisticien"
+description-meta: "CV académique de Mohamed Yassir Errahmani, épidémiologiste-biostatisticien, ingénieur de recherche à l'IDESP (INSERM – Université de Montpellier)."
+lang: fr
+header-includes: |
+  <link rel="alternate" hreflang="en" href="https://mohamedyassirerrahmani.github.io/cv/en/">
+  <link rel="alternate" hreflang="fr" href="https://mohamedyassirerrahmani.github.io/cv/">
+include-after-body:
+  text: |
+    <footer class="cv-footer">
+      <p>© 2026 Mohamed Yassir Errahmani · <a href="mailto:mohamed-yassir.errahmani@umontpellier.fr">Contact</a> · <a href="https://orcid.org/0000-0001-8403-298X">ORCID</a> · <a href="https://github.com/MohamedYassirErrahmani">GitHub</a></p>
+      <p>Dernière mise à jour : octobre 2026 · <a href="en/" data-lang-switch hreflang="en" lang="en">English version</a></p>
+    </footer>
+---
+
+```{=html}
+<!-- ======================= Barre de navigation ======================= -->
+<header class="cv-nav" id="top">
+  <div class="cv-nav-inner">
+    <a class="cv-brand" href="#top"><span class="cv-mono">MYE</span><span>M. Y. Errahmani</span></a>
+    <nav class="cv-nav-links" aria-label="Sections">
+      <a href="#profile">Profil</a>
+      <a href="#research">Recherche</a>
+      <a href="#experience">Expérience</a>
+      <a href="#education">Diplômes</a>
+      <a href="#publications">Publications</a>
+      <a href="#talks">Communications</a>
+      <a href="#skills">Compétences</a>
+    </nav>
+    <div class="cv-lang" role="group" aria-label="Langue">
+      <span class="on" aria-current="true">FR</span>
+      <a href="en/" data-lang-switch hreflang="en" lang="en" title="English version">EN</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============================ En-tête ============================== -->
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <span class="eyebrow">Curriculum vitæ</span>
+      <h1>Mohamed Yassir Errahmani</h1>
+      <p class="hero-role">Épidémiologiste — Biostatisticien, PhD</p>
+      <ul class="hero-affil">
+        <li>Ingénieur de Recherche — IDESP (INSERM – Université de Montpellier)</li>
+        <li>Chargé d'enseignement — Faculté de Médecine et Pharmacie de Montpellier</li>
+      </ul>
+      <div class="hero-links">
+        <a class="primary" href="mailto:mohamed-yassir.errahmani@umontpellier.fr"><i class="bi bi-envelope"></i> mohamed-yassir.errahmani@umontpellier.fr</a>
+        <a href="https://orcid.org/0000-0001-8403-298X"><i class="bi bi-person-vcard"></i> ORCID 0000-0001-8403-298X</a>
+        <a href="https://github.com/MohamedYassirErrahmani"><i class="bi bi-github"></i> GitHub</a>
+        <span><i class="bi bi-geo-alt"></i> Montpellier, France</span>
+      </div>
+    </div>
+    <!-- Pour afficher une photo : déposer photo.jpg à la racine du projet, l'ajouter à
+         "resources" dans _quarto.yml, puis remplacer « MYE » par <img src="photo.jpg" alt="Portrait"> -->
+    <div class="hero-badge" aria-hidden="true">MYE</div>
+  </div>
+</div>
+
+<!-- =========================== Chiffres clés ========================= -->
+<div class="stats">
+  <div><b>17</b>articles dans des revues à comité de lecture</div>
+  <div><b>7</b>publications en premier auteur</div>
+  <div><b>7</b>communications en congrès</div>
+  <div><b>10</b>pays européens — cohorte EXHES</div>
+</div>
+```
+
+## Profil {#profile}
+
+::: {.lead}
+Épidémiologiste et biostatisticien spécialisé en biostatistique et épidémiologie appliquées à la recherche biomédicale internationale (cohortes mère-enfant, exposome, essais et études cliniques réglementées), avec une expérience méthodologique de premier plan sur des projets de recherche impliquant la personne humaine.
+
+Actuellement Ingénieur de Recherche à l'IDESP (INSERM – Université de Montpellier) et chargé d'enseignement à la Faculté de Médecine et Pharmacie de Montpellier.
+:::
+
+## Recherche biomédicale — cohortes et études réglementées {#research}
+
+### Cohorte EXHES (Exposure and Health Examination Survey)
+
+::: {.meta}
+[Projet européen HEALS (FP7-ENV, Commission Européenne)]{.org} [2017 à aujourd'hui]{.when}
+:::
+
+- Cohorte prospective mère-enfant multicentrique : 2356 dyades, 10 pays européens. Approbations éthiques dans chaque pays (dont la France : CPP Ouest IV–Nantes, n°458/2017).
+- Rôle : **premier auteur et auteur correspondant** de la publication de référence décrivant le protocole complet de la cohorte (biobanque, questionnaires, exposome externe/interne) — *Methodology (lead)*, *Data curation (equal)*, *Formal analysis (equal)*, *Writing – original draft (lead)*.
+- Conception du plan d'analyse, analyses statistiques multi-pays (méta-analyse d'odds ratios et différences de moyennes standardisées), rédaction et publication du manuscrit.
+- Publication : Errahmani MY et al. The Exposure and Health Examination Survey mother-child(ren) cohort profile. *Exposome*, 2025. [10.1093/exposome/osaf009](https://doi.org/10.1093/exposome/osaf009){.doi}
+
+### Étude C-HEALTH
+
+::: {.meta}
+[CHU de Montpellier / Institut des Sciences de l'Évolution de Montpellier (ISEM)]{.org}
+:::
+
+- Recherche impliquant la personne humaine (RIPH), n° national 2023-A02418-37, portée par le CHU de Montpellier. Protocole de suivi biologique d'un cycle menstruel complet (prélèvements salivaires quotidiens, dispositif connecté, auto-prélèvements sanguins, tests d'ovulation).
+- Rôle : **responsable du volet biostatistique** — élaboration du plan d'analyse statistique (SAP) et conduite des analyses.
+
+### Cohorte COBRA
+
+::: {.meta}
+[Cohorte française multicentrique]{.org}
+:::
+
+- Rôle : **data-manager et responsable des analyses statistiques** de la cohorte.
+
+### Certification Bonnes Pratiques Cliniques (BPC / ICH-GCP)
+
+- Certifié « Les Bonnes Pratiques Cliniques de l'ICH E6(R3) » (référentiel BPC en vigueur) par The Global Health Network / Global Health Training Centre, score 95 % (juillet 2026).
+
+## Expériences professionnelles {#experience}
+
+### Ingénieur de Recherche — Épidémiologie, Biostatistique, Métabolomique, Épigénétique
+
+::: {.meta}
+[IDESP (INSERM – Université de Montpellier)]{.org} [Depuis janvier 2024 · Montpellier, France]{.when}
+:::
+
+Conduite des analyses statistiques et méthodologiques pour des projets de recherche de pointe en santé environnementale et médecine de précision.
+
+- **Supervision & Data Curation :** traitement et harmonisation de bases de données complexes issues de cohortes nationales et internationales.
+- **Modélisation avancée :** élaboration de plans d'analyse statistique (SAP), déploiement des modèles et analyses appropriés aux questions de recherche, et développement de packages R.
+- **Valorisation scientifique :** coordination méthodologique pour la rédaction de rapports scientifiques, d'appels à projets réglementés et d'articles scientifiques.
+- **Conformité & Éthique :** maintien d'un taux de conformité de 100 % avec les normes BPC (ICH-GCP) et les exigences réglementaires RIPH sur l'ensemble des études gérées.
+
+### Chargé d'enseignement vacataire
+
+::: {.meta}
+[Faculté de Pharmacie / Faculté de Médecine, Université de Montpellier]{.org} [Depuis septembre 2024 · Montpellier, France]{.when}
+:::
+
+Conception et animation de modules académiques avancés en biostatistique, épidémiologie, bases de données et programmation SAS pour des étudiants en santé et en pharmacie.
+
+- **Ingénierie pédagogique :** conception et dispensation de plus de 100 heures d'enseignement en programmation SAS, bases de données et statistiques appliquées, du niveau L3 à M2 et en 3^e^ année de pharmacie.
+- **Encadrement & Mentorat :** suivi et accompagnement d'étudiants de Master 1 et 2 durant leurs stages de recherche.
+
+### Doctorant chercheur
+
+::: {.meta}
+[Laboratoire d'épidémiologie des rayonnements ionisants (IRSN)]{.org} [Octobre 2020 – Septembre 2023 · Toulouse, France]{.when}
+:::
+
+- Sujet de thèse : Arythmies cardiaques et troubles de la conduction après radiothérapie pour cancer du sein.
+- Mise en place d'études épidémiologiques et rédaction de protocoles ; recherches bibliographiques.
+- Manipulation de données et cohortes médicales (SNDS, EGB, CAMBRIARYTHMO).
+- Rédaction de programmes et plans d'analyse statistique spécifiques à chaque étude ; analyses multidimensionnelles complexes.
+- Rédaction de rapports, articles scientifiques et présentation des résultats lors d'événements nationaux et internationaux.
+
+### Biostatisticien stagiaire
+
+::: {.meta}
+[IRSN – Laboratoire d'épidémiologie]{.org} [Mars 2020 – Août 2020 · Toulouse, France]{.when}
+:::
+
+- Sujet : Arythmie cardiaque après traitement pour cancer du sein (radiothérapie) — étude exploratoire sur les données médico-administratives EGB/SNDS.
+- Calcul de taux d'incidence et de SIR (Standardized Incidence Ratio) ; modèles de survie (Kaplan-Meier, régression de Cox).
+
+### Biostatisticien stagiaire
+
+::: {.meta}
+[Kwizda]{.org} [Avril 2019 – Août 2019 · Vienne, Autriche / Marly-le-Roi, France]{.when}
+:::
+
+- Sujet : Analyse préliminaire des méthodes d'évaluation de l'efficacité des produits biocides.
+- Constitution de base de données, analyses en composantes principales et multiples, modélisation et interprétation des résultats.
+
+## Diplômes et formations {#education}
+
+### Doctorat en Épidémiologie
+
+::: {.meta}
+[Université Paris-Saclay, France]{.org} [Octobre 2020 – Septembre 2023]{.when}
+:::
+
+### Master en Biostatistique
+
+::: {.meta}
+[Université de Montpellier, France]{.org} [Septembre 2018 – Septembre 2020]{.when}
+:::
+
+### Licence en Biologie – Analyses Médicales
+
+::: {.meta}
+[Faculté des Sciences et Techniques de Marrakech, Maroc]{.org} [Septembre 2015 – Septembre 2018]{.when}
+:::
+
+## Publications scientifiques {#publications}
+
+17 articles dans des revues à comité de lecture (2020–2026).
+
+### Publications en premier auteur (7)
+
+::: {.pubs}
+- **Errahmani MY** et al. The Exposure and Health Examination Survey mother-child(ren) cohort profile: applying the exposome to the comprehension of child's health and development joining singletons and twins data. *Exposome*, 2025. [10.1093/exposome/osaf009](https://doi.org/10.1093/exposome/osaf009){.doi}
+- **Errahmani MY** et al. Association between Cardiac radiation exposure and the risk of arrhythmia and conduction disorders in breast cancer patients treated with radiotherapy: A case–control study. *Archives of Cardiovascular Diseases Supplements*, 2023. [10.1016/j.acvdsp.2022.10.317](https://doi.org/10.1016/j.acvdsp.2022.10.317){.doi}
+- **Errahmani MY** et al. Supraventricular cardiac conduction system exposure in breast cancer patients treated with radiotherapy and association with heart and cardiac chambers doses. *Clinical and Translational Radiation Oncology*, 2022. [10.1016/j.ctro.2022.10.015](https://doi.org/10.1016/j.ctro.2022.10.015){.doi}
+- **Errahmani MY** et al. Risque d'arythmie cardiaque après radiothérapie pour un cancer du sein — étude à partir des données médico-administratives de l'Échantillon généraliste des bénéficiaires (EGB) du Système national des données de santé. *Revue d'Épidémiologie et de Santé Publique*, 2022. [10.1016/j.respe.2022.06.248](https://doi.org/10.1016/j.respe.2022.06.248){.doi}
+- **Errahmani MY** et al. Association between Cardiac radiation exposure and the risk of arrhythmia in breast cancer patients treated with radiotherapy: A case–control study. *Frontiers in Oncology*, 2022. [10.3389/fonc.2022.892882](https://doi.org/10.3389/fonc.2022.892882){.doi}
+- **Errahmani MY** et al. Risk of pacemaker implantation after radiotherapy for breast cancer: A study based on French nationwide health care database sample. *International Journal of Cardiology Heart & Vasculature*, 2021. [10.1016/j.ijcha.2021.100936](https://doi.org/10.1016/j.ijcha.2021.100936){.doi}
+- **Errahmani MY** et al. Breast cancer radiotherapy and risk of pacemaker implantation: an epidemiologic analysis using the French nationwide claims database. *European Heart Journal*, 2021. [10.1093/eurheartj/ehab724.2845](https://doi.org/10.1093/eurheartj/ehab724.2845){.doi}
+:::
+
+### Publications en collaboration — co-auteur (10)
+
+::: {.pubs}
+- Annisa et al., **Errahmani MY** (dernier auteur). Indoor Air Quality and Sleep Outcomes Among Schoolchildren: A Cross-Sectional Study in Yogyakarta and Sleman, Indonesia. *Aerosol and Air Quality Research*, 2026. [10.1007/s44408-026-00142-1](https://doi.org/10.1007/s44408-026-00142-1){.doi}
+- Sbabou M, Bendahhou K, **Errahmani MY**, Tabiti H, Souha S, Tahiri Jouti N. Breast Cancer Health Literacy and Screening Behaviors in Morocco: Assessment of Knowledge, Practices, and Barriers. *Indian Journal of Gynecologic Oncology*, 2025. [10.1007/s40944-025-01082-1](https://doi.org/10.1007/s40944-025-01082-1){.doi}
+- Madich FZ, **Errahmani MY**, Ait Said L, Warda K, Zahlane K. Emerging trends and resistance patterns of extended-spectrum beta-lactamases producing Enterobacteriaceae: an epidemiological insight from Ibn Tofail hospital in Marrakesh, Morocco. *Journal of Infection in Developing Countries*, 2025. [Accepté pour publication]{.tag}
+- Ait Said L, Debbagh F, **Errahmani MY**, Elghazouani Z, Abouankira M, Gharmoud M, El Hassani M, El Haoury H, Warda K, Zahlane K. Temporal Changes in Microbial Etiology and Antibiotic Resistance Profiles of Osteoarticular Infections: An 11-Year Retrospective Analysis. *Cureus (Springer Nature)*, 2025. [10.7759/cureus.95572](https://doi.org/10.7759/cureus.95572){.doi}
+- Sbabou M, Bendahhou K, **Errahmani MY**, Mouafik A, Tahiri Jouti N. Determinants of Delayed Breast Cancer Diagnosis: A Sample From the Mohammed VI Center for Cancer Treatment, Morocco. *Cureus (Springer Nature)*, 2025. [10.7759/cureus.89191](https://doi.org/10.7759/cureus.89191){.doi}
+- Sbabou M, Bendahhou K, **Errahmani MY**, Mouafik A, Tabiti H, Tahiri Jouti N. Determinants of Diagnosis Delay in a Sample of Breast Cancer Patients from the Mohammed VI Centre for Cancer Treatment. *Asian Pacific Journal of Cancer Prevention*, 2025. [10.31557/APJCP.2025.26.10.3865](https://doi.org/10.31557/APJCP.2025.26.10.3865){.doi}
+- Pegoraro F, Peyronel F, **Errahmani MY** et al. Risk of second Cancer in Erdheim-Chester Disease. *JAMA Oncology*, 2025. [10.1001/jamaoncol.2025.0011](https://doi.org/10.1001/jamaoncol.2025.0011){.doi}
+- Jacob S, Van Rothen J, Combes S, **Errahmani MY**, Cardin C, Combes N, Albenque JP, Boveda S. Impact of transcatheter aortic valve implantations on temporal trends of pacemaker implantations among French octogenarians: a nation-wide cohort study over the period 2008–2018. *European Heart Journal*, 2021. [10.1093/eurheartj/ehab724.0675](https://doi.org/10.1093/eurheartj/ehab724.0675){.doi}
+- Jacob S, **Errahmani MY** et al. Risk of pacemaker implantation in patients treated for breast cancer: A study based on French nationwide health database sample. *Archives of Cardiovascular Diseases Supplements*, 2021. [10.1016/j.acvdsp.2020.10.189](https://doi.org/10.1016/j.acvdsp.2020.10.189){.doi}
+- Jacob S, **Errahmani MY** et al. Risque d'implantation de stimulateur cardiaque après traitement pour un cancer du sein : étude à partir des données médico-administratives de l'Assurance maladie. *Cancer/Radiothérapie*, 2020. [10.1016/j.canrad.2020.08.038](https://doi.org/10.1016/j.canrad.2020.08.038){.doi}
+:::
+
+## Communications scientifiques {#talks}
+
+Congrès internationaux et nationaux.
+
+::: {.talks}
+- [Septembre 2026]{.when} **Congrès International de l'ERS (European Respiratory Society)** — communication affichée : *Predictors of weight variations in patients with COPD: a longitudinal cohort study – COBRA.*
+- [Septembre 2026]{.when} **Congrès International de l'ERS (European Respiratory Society)** — communication affichée : *Impact of early versus delayed biologic therapy initiation on severe asthma outcomes.*
+- [Juin 2023]{.when} **Congrès National de la Société Française de Radioprotection (SFRP)** — communication orale : association entre exposition cardiaque aux rayonnements ionisants et risque d'arythmie après radiothérapie pour cancer du sein.
+- [Janvier 2023]{.when} **Journées Européennes de la Société Française de Cardiologie (JESFC)** — communication orale : *Association between cardiac radiation exposure and the risk of arrhythmia and conduction disorders — a case-control study.*
+- [Août 2022]{.when} **Congrès International d'Épidémiologie (ADELF)** — communication orale : Risque d'arythmie cardiaque après radiothérapie pour un cancer du sein — étude EGB/SNDS.
+- [Août 2021]{.when} **Congrès de la Société Européenne de Cardiologie (ESC)** — communication orale : *Risk of pacemaker implantation after radiotherapy for breast cancer.*
+- [Juin 2021]{.when} **Congrès National de la Société Française de Radioprotection (eSFRP)** — communication orale : Risque d'arythmie cardiaque après radiothérapie pour un cancer du sein.
+:::
+
+## Formations complémentaires {#training}
+
+- **Certification « Les Bonnes Pratiques Cliniques de l'ICH E6(R3) » (ICH-GCP)** — The Global Health Network / Global Health Training Centre, score 95 %, juillet 2026.
+- **Intelligence Artificielle et Sciences du Médicament** — Institut Interdisciplinaire Health and Therapeutic Innovation (OI HEALTHI), Université Paris-Saclay (mars–juin 2022).
+- **Architecture et données du SNIIRAM/SNDS** (LI-REQ-054-AM) — Institut 4.10, janvier 2021.
+- **Échantillon Généraliste des Bénéficiaires simplifié** (LI-REQ-086-AM) — Institut 4.10, mars 2021.
+
+## Compétences et langues {#skills}
+
+::: {.skills}
+- **Outils statistiques** R / RStudio, SAS (SAS Enterprise Guide), Python.
+- **Méthodologie** Épidémiologie clinique, biostatistique appliquée à la recherche biomédicale, méta-analyses et revues systématiques (Rayyan), modèles de survie, analyses multidimensionnelles.
+- **Cadre réglementaire** Connaissance du cadre applicable aux recherches impliquant la personne humaine (RIPH, comités d'éthique multi-pays), bases médico-administratives françaises (SNDS, EGB).
+- **Gestion de données** REDCap, MySQL, ArcGIS/QGIS, Git/GitHub/GitLab.
+- **Langues** Français (bilingue) · Arabe (langue maternelle) · Anglais (professionnel).
+- **Autre** Membre du Consortium Scientifique PACE.
+:::
+

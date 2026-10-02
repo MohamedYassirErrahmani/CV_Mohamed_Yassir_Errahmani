@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs          # GitHub Pages : branche main, dossier /docs
+  render:
+    - index.qmd             # version française  -> /cv/
+    - en/index.qmd          # version anglaise   -> /cv/en/
+  resources:
+    - favicon.svg
+
+website:
+  title: "Mohamed Yassir Errahmani"
+  site-url: "https://mohamedyassirerrahmani.github.io/cv/"
+  description: "CV académique — Épidémiologiste-Biostatisticien, IDESP (INSERM – Université de Montpellier)"
+  favicon: favicon.svg
+  open-graph: true
+  search: false
+
+format:
+  html:
+    theme: default
+    css: styles.css
+    page-layout: custom
+    toc: false
+    anchor-sections: false
+    link-external-newwindow: true
+    link-external-icon: false
+    smooth-scroll: true
+    include-in-header: _head.html
+    include-after-body: _scripts.html
