@@ -3,8 +3,8 @@ pagetitle: "CV — Épidémiologiste-Biostatisticien"
 description-meta: "CV académique de Mohamed Yassir Errahmani, épidémiologiste-biostatisticien, ingénieur de recherche à l'IDESP (INSERM – Université de Montpellier)."
 lang: fr
 header-includes: |
-  <link rel="alternate" hreflang="en" href="https://mohamedyassirerrahmani.github.io/cv/en/">
-  <link rel="alternate" hreflang="fr" href="https://mohamedyassirerrahmani.github.io/cv/">
+  <link rel="alternate" hreflang="en" href="https://mohamedyassirerrahmani.github.io/CV_Mohamed_Yassir_Errahmani/en/">
+  <link rel="alternate" hreflang="fr" href="https://mohamedyassirerrahmani.github.io/CV_Mohamed_Yassir_Errahmani/">
 include-after-body:
   text: |
     <footer class="cv-footer">
